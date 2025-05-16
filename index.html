@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahakal Garments - Shujalpur</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    nav {
+      background: #222;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav input {
+      padding: 5px;
+      width: 200px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .section-title {
+      font-size: 24px;
+      margin: 20px;
+      text-align: center;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 0 20px 40px;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .product-name {
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    .price {
+      color: green;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .contact {
+      padding: 30px;
+      background: #fff;
+      margin: 20px;
+      border-radius: 10px;
+    }
+
+    .contact input, .contact textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .contact button {
+      background: #000;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 600px) {
+      nav input {
+        width: 100%;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>Mahakal Garments - Shujalpur</header>
+
+  <nav>
+    <a href="#girls">Girls Wear</a>
+    <a href="#mens">Mens Wear</a>
+    <input type="text" placeholder="Search..." />
+  </nav>
+
+  <div class="section-title" id="girls">👗 Girls Wear</div>
+  <div class="products">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300x400?text=Kurti" alt="Kurti">
+      <div class="product-name">Designer Kurti</div>
+      <div class="price">₹899</div>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300x400?text=Lehenga" alt="Lehenga">
+      <div class="product-name">Lehenga Choli</div>
+      <div class="price">₹1499</div>
+    </div>
+  </div>
+
+  <div class="section-title" id="mens">👕 Mens Wear</div>
+  <div class="products">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300x400?text=Shirt" alt="Shirt">
+      <div class="product-name">Cotton Shirt</div>
+      <div class="price">₹799</div>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300x400?text=Jeans" alt="Jeans">
+      <div class="product-name">Denim Jeans</div>
+      <div class="price">₹999</div>
+    </div>
+  </div>
+
+  <div class="contact">
+    <h2>📞 Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea rows="4" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18..."></iframe>
+
+  <footer>
+    📍 Mahakal Garments, Shujalpur <br>
+    📞 +91-8770773431 | Follow us on Instagram @mahakalgarments
+  </footer>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/918770773431" target="_blank" style="position: fixed; bottom: 20px; right: 20px;">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="60" alt="WhatsApp Chat">
+  </a>
+
+</body>
+</html>
